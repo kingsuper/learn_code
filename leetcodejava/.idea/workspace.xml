@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c40c55-1f05-417c-b2a3-7508f64f6334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution739.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution279.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution279.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../production/production/leetcodejava1/Solution752.class" beforeDir="false" afterPath="$PROJECT_DIR$/../production/production/leetcodejava1/Solution752.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +40,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="125">
+              <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="e#0#1262#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution739.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#164#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -125,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/Solution279.java" />
         <option value="$PROJECT_DIR$/src/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Solution20.java" />
+        <option value="$PROJECT_DIR$/src/Solution739.java" />
       </list>
     </option>
   </component>
@@ -167,14 +178,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577156446860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173996145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution20">
+  <component name="RunManager" selected="JUnit.Solution739">
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinStack" />
       <module name="leetcodejava1" />
@@ -214,19 +225,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution279" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution739" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcodejava1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Solution279" />
+      <option name="MAIN_CLASS_NAME" value="Solution739" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution279.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution739.testDailyTemperatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcodejava1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Solution279" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Solution739" />
+      <option name="METHOD_NAME" value="testDailyTemperatures" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solution739" />
+        <item itemvalue="JUnit.Solution739.testDailyTemperatures" />
         <item itemvalue="JUnit.Solution20" />
         <item itemvalue="JUnit.Solution20.testCanPartition" />
         <item itemvalue="Application.MinStack" />
-        <item itemvalue="JUnit.Solution279.test" />
-        <item itemvalue="JUnit.Solution279" />
       </list>
     </recent_temporary>
   </component>
@@ -254,44 +265,44 @@
       <updated>1576149876288</updated>
       <workItem from="1576149877780" duration="13496000" />
       <workItem from="1576808057783" duration="138000" />
-      <workItem from="1576808237046" duration="6892000" />
+      <workItem from="1576808237046" duration="14365000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution20 - 2019.12.23 at 10h 22m 51s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 14h 09m 53s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20_testCanPartition - 2019.12.23 at 14h 20m 52s.xml">
-      <configuration name="Solution20.testCanPartition" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 14h 10m 40s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20_testCanPartition - 2019.12.23 at 14h 21m 09s.xml">
-      <configuration name="Solution20.testCanPartition" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 26m 14s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20_testCanPartition - 2019.12.23 at 14h 23m 29s.xml">
-      <configuration name="Solution20.testCanPartition" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 26m 21s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20_testCanPartition - 2019.12.23 at 14h 23m 54s.xml">
-      <configuration name="Solution20.testCanPartition" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 29m 38s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20 - 2019.12.23 at 14h 25m 58s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 33m 57s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20 - 2019.12.23 at 14h 26m 48s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 34m 44s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20 - 2019.12.24 at 10h 51m 55s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 36m 02s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20 - 2019.12.24 at 10h 54m 49s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 36m 08s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution20 - 2019.12.24 at 10h 54m 56s.xml">
-      <configuration name="Solution20" configurationId="JUnit" />
+    <history-entry file="Solution739 - 2019.12.24 at 15h 36m 25s.xml">
+      <configuration name="Solution739" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20526000" />
+    <option name="totallyTimeSpent" value="27999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -307,7 +318,7 @@
       <window_info anchor="bottom" id="CodeStyleCheckAndFix" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17462039" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.335141" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +329,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
-      <window_info anchor="bottom" id="CheckStyle" order="13" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="CheckStyle" order="13" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,6 +383,18 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution739.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution739.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -406,16 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="57" column="5" selection-start-line="52" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution279.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" selection-start-line="10" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,12 +473,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution279.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" selection-start-line="10" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="125">
+          <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="7" />
           <folding>
             <element signature="e#0#1262#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution739.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#164#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
