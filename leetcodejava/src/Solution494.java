@@ -26,7 +26,7 @@ public class Solution494 {
     }
 
     private void calculate(int[] nums, int index, int sum, int target) {
-        if (index == nums.length ) {
+        if (index == nums.length) {
             if (sum == target) {
                 result++;
             }

@@ -59,6 +59,6 @@ public class Solution200 {
         char[][] inputs = new char[][] {
             {'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}
         };
-        Assert.assertEquals(3, this.numIslands(input));
+        Assert.assertEquals(3, this.numIslands(inputs));
     }
 }
